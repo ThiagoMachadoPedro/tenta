@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #F0F8FF;
+  color: #0d0131;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+.container{
+  max-width: 1024px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+#titulo {
+  margin: 0 auto;
+  font-family: sans-serif;
+  color: #110120;
+  text-decoration: underline;
+  font-size: 28px;
+  font-weight: bold;
+  text-align: center;
+  margin: 0;
+}
+#subtitulo{
+  margin: 0;
+  font-size: 20px;
+  text-align: center;
+  color: #110120;
+  margin: 0;
+}
+
+#telefone {
+  margin: 0;
+  font-size: 17px;
+  padding-bottom: 5px;
+  text-align: center;
+  color: #110120;
+}
+#endereco {
+  font-size: 17px;
+  margin: 0;
+  padding-bottom: 5px;
+  text-align: center;
+  color: #110120;
+}
+
+#gerador-pdf:hover{
+  background-color: brown;
+  color: black;
+}
+body input {
+border-radius: 10px;
+text-align: center;
+height: 25px;
+}
+button{
+  padding: 10px;
+  background-color: #110120;
+  color: #F0F8FF;
+}
+
+footer{
+  padding-bottom: 15px;
+  text-align: center;
+  color: #110120;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button{
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+
+@media (max-width: 768px) {
+*{
+  padding: auto;
+  margin: 0;
+  box-sizing: border-box;
+  max-width: 800px;
+}
+.tela-menor{
+  display: flex;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+
+
+}
