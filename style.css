@@ -11,6 +11,8 @@
   max-width: 1024px;
   width: 100%;
   margin: 0 auto;
+  font-weight: bold;
+  font-family: sans-serif;
 }
 
 #titulo {
@@ -29,6 +31,8 @@
   text-align: center;
   color: #110120;
   margin: 0;
+    font-weight: bold;
+  font-family: sans-serif;
 }
 
 #telefone {
@@ -54,11 +58,23 @@ body input {
 border-radius: 10px;
 text-align: center;
 height: 25px;
+position: relative;
 }
 button{
   padding: 10px;
-  background-color: #110120;
+  background-color: #22033f;
   color: #F0F8FF;
+  border-radius: 10px;
+}
+
+table td p{
+  border-radius: 5px;
+  background-color: rgb(217, 215, 231);
+  padding:  0px 50px;
+  font-weight: bold;
+  max-width: 100%;
+  font-size: 18px;
+
 }
 
 footer{
@@ -75,7 +91,7 @@ input::-webkit-inner-spin-button{
 
 @media (max-width: 768px) {
 *{
-  padding: auto;
+  padding: 0;
   margin: 0;
   box-sizing: border-box;
   max-width: 800px;
