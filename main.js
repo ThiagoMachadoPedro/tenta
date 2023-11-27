@@ -1,7 +1,7 @@
 function calcularSoma() {
   // Obter os valores dos campos de entrada
   var valores = [];
-  for (var i = 1; i <= 12; i++) {
+  for (var i = 1; i <= 11; i++) {
       var campo = document.getElementById('valor' + i);
       if (campo.value !== "") {
           valores.push(parseFloat(campo.value));
