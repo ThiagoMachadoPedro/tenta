@@ -14,6 +14,6 @@ function calcularSoma() {
   }, 0);
 
   // Exibir o resultado
-  document.getElementById('resultado').innerText = soma;
+  document.getElementById('resultado').innerText ="R$"+ soma;
 
 }

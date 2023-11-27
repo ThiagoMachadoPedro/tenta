@@ -1,8 +1,8 @@
 function obterNome(){
 
-  var nameC = document.getElementById("nome").value;
+  var nome = document.getElementById("nome").value;
 
-return nameC;
+return nome;
 }
 function obterdata(){
 
@@ -25,6 +25,7 @@ const btnGenerate = document.querySelector("#gerador-pdf")
 btnGenerate.addEventListener("click", () => {
 
   const content = document.querySelector("#content")
+  const content2 = document.querySelector("#content2")
 
   const options= {
     margin: [10,10,10,10],
@@ -34,7 +35,7 @@ btnGenerate.addEventListener("click", () => {
     jsPDF: {unit: "mm" , format:"a4", orientation: "portrait"}
   }
 
-  html2pdf().set(options).from(content).save();
+  html2pdf().set(options).from(content,content2).save();
 
 
 
